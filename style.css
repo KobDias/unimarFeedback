@@ -1,0 +1,16 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    padding-top: 56px; /* Espaço para a navbar fixa */
+}
+
+header {
+    background: url('https://via.placeholder.com/1500x500') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+
+footer {
+    background-color: #007bff;
+}

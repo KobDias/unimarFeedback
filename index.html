@@ -1,4 +1,111 @@
+
 <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Unimar</title>
+    <!-- Link para o CSS do Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link para o CSS personalizado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#"><img src="/assets/img/logo.png" alt="Unimar" width="150"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#feedbackForm">Dar Feedback</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="jumbotron text-center bg-info text-white">
+        <h1 class="display-4">Dê Seu Feedback</h1>
+        <p class="lead">Sua opinião é importante para nós!</p>
+    </header>
+
+    <!-- Feedback Form Section -->
+    <section id="feedbackForm" class="container my-5">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2 class="text-center">Formulário de Feedback</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" class="form-control" id="name" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Seu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="eventFeedback">Feedback sobre Eventos</label>
+                        <textarea class="form-control" id="eventFeedback" rows="4" placeholder="Sua opinião sobre eventos..." required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="infrastructureFeedback">Feedback sobre Infraestrutura</label>
+                        <textarea class="form-control" id="infrastructureFeedback" rows="4" placeholder="Sua opinião sobre infraestrutura..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Enviar Feedback</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto text-center">
+                    <h2>Sobre o Projeto</h2>
+                    <p>Este site foi criado para facilitar a coleta de feedback dos alunos sobre eventos e infraestrutura do campus da Unimar. Queremos ouvir suas opiniões para melhorar continuamente a nossa instituição.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto text-center">
+                    <h2>Contato</h2>
+                    <p>Para mais informações ou se precisar de assistência, entre em contato conosco:</p>
+                    <p>Email: contato@unimar.br</p>
+                    <p>Telefone: (14) 1234-5678</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-3">
+        <p>&copy; 2024 Unimar. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,10 +118,16 @@
             <a href="#" class="navbar-brand container-fluid">
                 <img src="/assets/img/unimar.png" width="150" alt="Unimar">
             </a>
+            <ul class="navbar-nav">
+                <ul class="nav-item"><a href="#" class="nav-link">Coisa</a></ul>
+                <ul class="nav-item"><a href="#" class="nav-link">Torta</a></ul>
+            </ul>
     </nav>
-    <div class="container"></div>
+    <div class="container bg-secundary">
+        
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
-</html>
+</html> -->
